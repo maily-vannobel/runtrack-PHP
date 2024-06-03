@@ -6,7 +6,7 @@ for ($i = 0; $i <= 1337; $i++) {
 if ($i == 26 || $i == 37 || $i == 88 || $i == 1111) {
     echo null;
 } else {
-    // sinn affiche justre valeur de $i
+    // sinn affiche juste $i
     echo $i . "<br>";
 }
 }
