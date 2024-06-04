@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOB2-J2</title>
+    <title>JOB4-J2</title>
 </head>
 <body>
     <form action="traitement.php" method="POST"> 
