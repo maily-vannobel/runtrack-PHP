@@ -4,7 +4,7 @@
     //boucle foreach qui parcourt le tableau
     //$cle = var qui conteitn clé de chaque element (nom champ dans form)
     //compteur s'incrémente à chaque itération pour compter
-    foreach ($_GET as $cle => $valeur) {
+    foreach ($_POST as $cle => $valeur) {
         $compteur++;
     }
     echo $compteur;

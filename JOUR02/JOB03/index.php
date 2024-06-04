@@ -6,7 +6,7 @@
     <title>JOB2-J2</title>
 </head>
 <body>
-    <form action="traitement.php" method="GET"> 
+    <form action="traitement.php" method="POST"> 
 
         <label for="mail">MAIL </label>
         <input type="e-mail" name="mail" id="mail">  </input>
