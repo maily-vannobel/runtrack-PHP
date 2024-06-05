@@ -1,13 +1,8 @@
 <?php 
-function bonjour(bool$jour): string {
-     if ($jour == true) {
-     return "Bonjour";
-     } else {
-     return "Bonsoir";
-     }
-
+function getHello(): string {
+     
+     return "Hello La Plateforme !";
 }
 
 
-echo bonjour(true);
-echo bonjour (false);
+echo getHello();
