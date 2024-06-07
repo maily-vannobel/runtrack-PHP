@@ -13,7 +13,7 @@ Ajoutez un bouton “reset” qui permet de réinitialiser la liste -->
     if (!isset($_SESSION['prenom'])) {
     $_SESSION['prenom'] = [];
 }
-    // Vérifier si la requête est de type POST pour exécuter les actions appropriées
+    // Vérifier si la requête est de type POST 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Ajouter un prénom à la session si le formulaire est soumis
     if (isset($_POST['prenom'])) {
